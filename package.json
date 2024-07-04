@@ -1,0 +1,30 @@
+{
+  "name": "express-biztime",
+  "version": "1.0.0",
+  "description": "An Express application for managing companies and invoices",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.3.4"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/jest.setup.js"
+    ]
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": []
+}
